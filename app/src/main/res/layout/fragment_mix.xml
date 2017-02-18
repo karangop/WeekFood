@@ -1,0 +1,260 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.karangop.weekfood.MixFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selectMix"
+        android:layout_gravity="left"
+        android:paddingBottom="15dp"/>
+
+    <!--Mix Monday-->
+    <RadioGroup
+        android:id="@+id/mixMonRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/mix1Rg1"
+            android:text="@string/mix1Mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix2Rg1"
+            android:text="@string/mix2Mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix3Rg1"
+            android:text="@string/mix3Mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix4Rg1"
+            android:text="@string/mix4Mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <!--Mix Tuesday-->
+    <RadioGroup
+        android:id="@+id/mixTueRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/mix1Rg2"
+            android:text="@string/mix1Tue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix2Rg2"
+            android:text="@string/mix2Tue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix3Rg2"
+            android:text="@string/mix3Tue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix4Rg2"
+            android:text="@string/mix4Tue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <!--Mix Wednesday-->
+    <RadioGroup
+        android:id="@+id/mixWedRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/mix1Rg3"
+            android:text="@string/mix1Wed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix2Rg3"
+            android:text="@string/mix2Wed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix3Rg3"
+            android:text="@string/mix3Wed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix4Rg3"
+            android:text="@string/mix4Wed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <!--Mix Thursday-->
+    <RadioGroup
+        android:id="@+id/mixThuRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/mix1Rg4"
+            android:text="@string/mix1Thu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix2Rg4"
+            android:text="@string/mix2Thu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix3Rg4"
+            android:text="@string/mix3Thu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix4Rg4"
+            android:text="@string/mix4Thu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <!--Mix Friday-->
+    <RadioGroup
+        android:id="@+id/mixFriRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/mix1Rg5"
+            android:text="@string/mix1Fri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix2Rg5"
+            android:text="@string/mix2Fri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix3Rg5"
+            android:text="@string/mix3Fri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix4Rg5"
+            android:text="@string/mix4Fri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <!--Mix Saturday-->
+    <RadioGroup
+        android:id="@+id/mixSatRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/mix1Rg6"
+            android:text="@string/mix1Sat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix2Rg6"
+            android:text="@string/mix2Sat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix3Rg6"
+            android:text="@string/mix3Sat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix4Rg6"
+            android:text="@string/mix4Sat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <!--Mix Sunday-->
+    <RadioGroup
+        android:id="@+id/mixSunRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/mix1Rg7"
+            android:text="@string/mix1Sun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix2Rg7"
+            android:text="@string/mix2Sun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix3Rg7"
+            android:text="@string/mix3Sun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/mix4Rg7"
+            android:text="@string/mix4Sun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btnShowDish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/showDish"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="15dp"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        />
+
+
+
+</LinearLayout>

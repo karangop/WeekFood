@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Week Food</string>
+    <string name="title_activity_main">Week Food</string>
+    <string name="description_app">¿Qué quieres comer hoy? Come sano y nutritivo con una aplicación de bolsillo.</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--textos descripcion app 1era columna-->
+    <string name="name_people">Ingresa tu nombre</string>
+    <string name="select_day">Selecciona el día</string>
+    <string name="select_mix">Selecciona ingredientes</string>
+    <string name="press_button">Finalmente presiona el botón "Ver Plato" y listo!!</string>
+    <string name="press">Presiona el botón rosado para comenzar</string>
+    <string name="start">para comenzar</string>
+
+    <!--textos descripcion app 1era columna-->
+    <string name="example_name">Ej: Karina</string>
+    <string name="example_day">Ej: Lunes</string>
+    <string name="example_mix">Ej: Papas</string>
+
+    <!--Mix Dishes Monday-->
+    <string name="mix1Mon">Porotos verdes</string>
+    <string name="mix2Mon">Brocoli</string>
+    <string name="mix3Mon">Zapallo italiano</string>
+    <string name="mix4Mon">Acelga</string>
+
+    <!--Mix Dishes Tuesday-->
+    <string name="mix1Tue">Arvejas</string>
+    <string name="mix2Tue">Lechuga</string>
+    <string name="mix3Tue">Papas</string>
+    <string name="mix4Tue">Arroz  primavera</string>
+
+    <!--Mix Dishes Wednesday-->
+    <string name="mix1Wed">Papas fritas</string>
+    <string name="mix2Wed">Huevo frito</string>
+    <string name="mix3Wed">Tomate</string>
+    <string name="mix4Wed">Porotos verdes</string>
+
+    <!--Mix Dishes Thursday-->
+    <string name="mix1Thu">Huevo duro</string>
+    <string name="mix2Thu">Tomate a la chilena</string>
+    <string name="mix3Thu">Longaniza</string>
+    <string name="mix4Thu">Fideos</string>
+
+    <!--Mix Dishes Friday-->
+    <string name="mix1Fri">Puré</string>
+    <string name="mix2Fri">Tomate</string>
+    <string name="mix3Fri">Queso</string>
+    <string name="mix4Fri">Crema</string>
+
+    <!--Mix Dishes Saturday-->
+    <string name="mix1Sat">Arroz</string>
+    <string name="mix2Sat">Papas</string>
+    <string name="mix3Sat">Cebollín</string>
+    <string name="mix4Sat">Huevo</string>
+
+    <!--Mix Dishes Sunday-->
+    <string name="mix1Sun">Papas mayo</string>
+    <string name="mix2Sun">Atún</string>
+    <string name="mix3Sun">Tomate a la chilena</string>
+    <string name="mix4Sun">Tomate</string>
+
+    <string name="showDish">Ver Plato</string>
+
+    <!--textos -->
+    <string name="selectDay">Selecciona un día de la semana:</string>
+    <string name="selectMix">Selecciona un ingrediente:</string>
+
+
+</resources>
