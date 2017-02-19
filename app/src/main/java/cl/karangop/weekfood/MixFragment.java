@@ -231,7 +231,7 @@ public class MixFragment extends Fragment {
 
 //                    VALIDACIONES
                     //si el plato esta vacio, no tiene información para mostrar.
-                    if (namePerson.getText().toString().isEmpty()){
+                    if (namePerson.getText().toString().trim().length() == 0){
                         Toast.makeText(getContext(), "Ingrese su nombre", Toast.LENGTH_SHORT).show();
                     }else if (id == -1) {
                         Toast.makeText(getContext(), "Selecciona un ingrediente", Toast.LENGTH_SHORT).show();
